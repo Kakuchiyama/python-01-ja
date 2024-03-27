@@ -7,7 +7,7 @@ book_list = ["赤毛のアン"]
 #「1:本の追加」を選択した場合
 if choise == 1:
     add_list = input("追加したい本のタイトルを記入してください：")
-    #append.book_list(add_list)
+    append.book_list(add_list)
 
 #「2:本の編集」を選択した場合
 elif choise == 2:
@@ -27,7 +27,7 @@ elif choise == 3:
 #「4:本の削除」を選択した場合
 elif choise == 4:
     remove_book = input("本棚から削除したい本のタイトルを記入してください：")
-   # remove.book_list(remove_book)
+    remove.book_list(remove_book)
 
 #「5:ブックシェルフの統計情報の表示」を選択した場合
 elif choise == 5:
