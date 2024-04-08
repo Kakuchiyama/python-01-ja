@@ -1,5 +1,7 @@
 def counter():
-    #occurrences = {}
+    occurrences = {}
+
+
     fruits = [
         "apple",
         "banana",
@@ -22,7 +24,7 @@ def counter():
     melon = ["melon" for fruits in fruits if fruits == "melon" ]
     strawberry = ["strawberry" for fruits in fruits if fruits == "strawberry" ]
     
-    
+
     occurrences = {
         "apple": len(apple),
         "banana" : len(banana),
@@ -32,6 +34,8 @@ def counter():
         "melon" : len(melon),
         "strawberry" : len(strawberry)
     }
+    
+    
 
 
     return occurrences
