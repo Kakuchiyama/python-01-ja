@@ -1,11 +1,9 @@
 def counter():
     occurrences = {}
-
-
     fruits = [
-        "apple",
+        "apple", 
         "banana",
-        "orange",
+        "orange", 
         "grape",
         "apple",
         "kiwi",
@@ -13,7 +11,7 @@ def counter():
         "melon",
         "orange",
         "strawberry",
-    ]
+        ]
 
     # ここにコードを書いてください
     apple = ["apple" for fruits in fruits if fruits == "apple" ]
